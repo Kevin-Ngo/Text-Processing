@@ -1,0 +1,111 @@
+------------ Data from Text #1 ------------
+Case: 1
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "adopted"
+Successful?: true
+Time spent searching: 4ms
+Total number of comparisons: 38
+Average number of comparisons per character: 0.004667157946450504
+
+
+Case: 2
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "King T'Challa is the new president"
+Successful?: false
+Time spent searching: 1ms
+Total number of comparisons: 8142
+Average number of comparisons per character: 1.0
+
+
+Case: 3
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "british brethren"
+Successful?: true
+Time spent searching: 0ms
+Total number of comparisons: 6622
+Average number of comparisons per character: 0.8133136821419799
+
+
+Case: 4
+Algorithm used: Boyer-Moore
+Pattern searched for: "adopted"
+Successful?: true
+Time spent searching: 3ms
+Total number of comparisons: 13
+Average number of comparisons per character: 0.0015966592974699092
+
+
+Case: 5
+Algorithm used: Boyer-Moore
+Pattern searched for: "King T'Challa is the new president"
+Successful?: false
+Time spent searching: 2ms
+Total number of comparisons: 670
+Average number of comparisons per character: 0.08228936379267993
+
+
+Case: 6
+Algorithm used: Boyer-Moore
+Pattern searched for: "british brethren"
+Successful?: true
+Time spent searching: 3ms
+Total number of comparisons: 754
+Average number of comparisons per character: 0.09260623925325473
+
+
+
+------------ Data from Text #2 ------------
+Case: 1
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "actgga"
+Successful?: true
+Time spent searching: 0ms
+Total number of comparisons: 1338
+Average number of comparisons per character: 0.08659633680667918
+
+
+Case: 2
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "tagtac"
+Successful?: true
+Time spent searching: 1ms
+Total number of comparisons: 1470
+Average number of comparisons per character: 0.0951394731732574
+
+
+Case: 3
+Algorithm used: Knuth-Morris-Pratt
+Pattern searched for: "Black panther is the coolest superhero."
+Successful?: false
+Time spent searching: 2ms
+Total number of comparisons: 15451
+Average number of comparisons per character: 1.0
+
+
+Case: 4
+Algorithm used: Boyer-Moore
+Pattern searched for: "actgga"
+Successful?: true
+Time spent searching: 4ms
+Total number of comparisons: 641
+Average number of comparisons per character: 0.041485987961944214
+
+
+Case: 5
+Algorithm used: Boyer-Moore
+Pattern searched for: "tagtac"
+Successful?: true
+Time spent searching: 5ms
+Total number of comparisons: 1106
+Average number of comparisons per character: 0.07158112743511746
+
+
+Case: 6
+Algorithm used: Boyer-Moore
+Pattern searched for: "Black panther is the coolest superhero."
+Successful?: false
+Time spent searching: 6ms
+Total number of comparisons: 672
+Average number of comparisons per character: 0.043492330593489094
+
+
